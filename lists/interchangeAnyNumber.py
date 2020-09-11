@@ -4,8 +4,8 @@ for i in range(0,5):
 	n = int(input())
 	a.append(n)
 print("Original Array is :: ", a)
-p = int(input("Enter the address to be swapped::"))
-q = int(input("Enter the address to be swapped::"))
+p = int(input("Enter the first address to be swapped::"))
+q = int(input("Enter the second address to be swapped::"))
 swap = a[p]
 a[p] = a[q]
 a[q] = swap
